@@ -9,14 +9,14 @@
 <body>
         <header>
             <a href="/">
-                <img src="./img/Logo.svg" alt="Logo">
+                <img src="./img/Logo.svg" alt="Logotype">
             </a>
             <nav>
                 <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/services and prices">Services and prices</a></li>
-                    <li><a href="/barbers">Barbers</a></li>
-                    <li><a href="/contacts">Contacts</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#prices">Services and prices</a></li>
+                    <li><a href="#barbers">Barbers</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
             <address>
@@ -36,9 +36,9 @@
                 We work quickly, carefully and with style.</p>
         </section>
         <!--About-->
-        <section>
-            <img src="./img/img 1.jpg" alt="Barber work sample" width="270" height="445">
-            <img src="./img/img 2.jpg" alt="Barber work sample" width="270" height="445">
+        <section id="about">
+            <img src="./img/img1.jpg" alt="Barber work sample" width="270" height="445">
+            <img src="./img/img2.jpg" alt="Barber work sample" width="270" height="445">
             <p>About</p>
             <h2>Best Barbershop in your city</h2>
             <p>If you want to add more confidence to your image, you should definitely visit us.</p>
@@ -50,7 +50,7 @@
             <button type="button">online-booking</button>
         </section>
         <!--Services and prices-->
-        <section>
+        <section id="prices">
             <p>spend your time with the best masters</p>
             <h2>Services and prices</h2>
             <ul>
@@ -114,7 +114,7 @@
             <p>Only good things are said about us. But it's better to see and feel 1 time than read 10 times.</p>
         </section>
         <!--Our barbers-->
-        <section>
+        <section id="barbers">
             <p>for true enjoyers of the atmosphere</p>
             <h2>Our barbers</h2>
             <ul>
@@ -140,10 +140,10 @@
             <p>in Latin, "barba" means "beard"</p>
             <h2>Gallery</h2>
             <ul>
-                <li><img src="./img/Rectangle 25.jpg" alt="Gallery of masters"></li>
-                <li><img src="./img/Rectangle 26.jpg" alt="Gallery of masters"></li>
-                <li><img src="./img/Rectangle 27.jpg" alt="Gallery of masters"></li>
-                <li><img src="./img/Rectangle 28.jpg" alt="Gallery of masters"></li>
+                <li><img src="./img/Rectangle25.jpg" alt="Gallery of masters"></li>
+                <li><img src="./img/Rectangle26.jpg" alt="Gallery of masters"></li>
+                <li><img src="./img/Rectangle27.jpg" alt="Gallery of masters"></li>
+                <li><img src="./img/Rectangle28.jpg" alt="Gallery of masters"></li>
             </ul>
         </section>
         <!--Online-booking-->
@@ -151,7 +151,7 @@
             <h2>Online-booking</h2>
         </section>
         <!--Contacts info-->
-        <section>
+        <section id="contacts">
             <h2>Contacts</h2>
             <address>
                 <ul>
