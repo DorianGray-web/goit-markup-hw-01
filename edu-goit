@@ -19,9 +19,7 @@
                     <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
-            <address>
-                <a href="tel:+380441111111">+38 044 111 11 11</a>
-            </address>
+            <a href="tel:+380441111111">+38 044 111 11 11</a>
             <button type="button">online-booking</button>
         </header>
        <main>
